@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: arial, Helvetica, sans-serif;
+}
+
+    body{
+        background: #F5F5DC;
+}
+.head{
+    background: #D67BFF;
+    width:100%;
+    padding:30px 0;
+    box-shadow:0 2px 2px #6F61C0;
+}
+.head-text{
+    text-align: center;
+    color:0F0F0F;
+}
+.navbar{
+    display:flex;
+    justify-content: space-around;
+    border-bottom: 2px solid #6F61C0;
+    padding:2vh;
+}
+.link{
+    display:flex;
+}
+.link li{
+    margin: 0 10px;
+}
+.link li:hover{
+    border-bottom: 2px solid #322653;
+}
+.container{
+    padding-top: 3vh;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+footer{
+    position:absolute;
+    bottom:0;
+    height:30px;
+    background: #D67BFF;
+    width:100%;
+    text-align:center;
+    padding-top: 30px;
+    color:rgb(10, 10, 10);
+}
+.col{
+    background: D0BFFF;
+    width: 98%;
+    padding: 15px 0 15px 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 3px #D67BFF;
+}
+.card{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background: 0F0F0F;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 3px#D67BFF ;
+}
+.card-header{
+    border-bottom: 3px solid #6F61C0 ;
+    padding: 25px;
+}
+.btn{
+    padding: 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0 0 2px #9D76C1;
+    font-size: 10pt;
+}
+.btn-tambah{
+    background: #9400FF;
+    color:#FFF8C9;
+}
+.btn-hapus{
+    background: #b63743;
+    color: #F5F5DC;
+}
+.btn-edit{
+    background: #5932e4;
+    color: #F5F5DC;
+} 
+.btn-tambah:hover{
+    border: 1px solid #6F61C0;
+    background: #D67BFF;
+    color:#000;
+}
+table{
+  margin: 10px auto 10px;
+  width: 98%;
+  border-collapse:collapse ;
+  border: 1px solid #6F61C0;
+  text-align: center;
+}
+th{
+    background: #D67BFF;
+    color: #0F0F0F;
+    height: 30px;
+    padding: 10px;
+}
+tr{
+    border: 1px solid #6F61C0;
+}
+tr:hover{
+    background: #FFD1DA;
+}
+td{
+    padding: 8px;
+    height: 25px;
+}
+fieldset{
+    padding: 10px;
+    border-radius: 10px;
+}
+.from-group{
+    display: block;
+    margin-top: 10px;
+}
+label{
+    display: inline-block;
+    margin: 3px 0 5px 0;
+    width: 20%;
+}
+.form-control{
+   display: block;
+   width: 50%;
+   padding: .375rem .75rem;
+   font-size: 1rem;
+   font-weight: 400;
+   line-height: 1.5;
+   color:black;
+   background:#F5F5DC;
+   background-clip: padding-box;
+   border: 1px solid #D67BFF;
+   border-radius: 1rem;
+}
+.btn-save{
+   margin-top: 20px;
+   border: 1px solid #6F61C0;
+}
